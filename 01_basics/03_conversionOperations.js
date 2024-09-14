@@ -64,3 +64,28 @@ let stringNumber = String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber);
 */
+
+////////// Operations
+//Arithmetic Operators
+// + - * / **
+
+/*Test case 1
+let str1 = "Hello "
+let str2 = "srish"
+let str3 = str1 + str2 //concatination
+console.log(str3);
+*/
+
+/* Test case 2
+console.log("1" + 2)
+console.log(1 + "2");
+console.log(1+2+"3");
+console.log("1"+2+3);
+*/
+
+//Test case 3
+// console.log(true);//true
+// console.log(+true)//1
+// //console.log(true+) //Error
+// console.log(+"")
+
