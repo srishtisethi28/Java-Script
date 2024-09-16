@@ -34,3 +34,25 @@ const myfunction =function()
     console.log("srish");
     
 }
+
+// **********************************************************
+
+// Memory
+//Stack(primitive)
+let myYtName = "srish.com"
+let anotherName = myYtName
+console.log(anotherName)
+
+anotherName = "chaiOrCode"
+console.log(anotherName);
+console.log(myYtName);
+
+//Heap (Non-primitive or refrence)
+let user1 = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let user2 = user1
+user2.email = "srish@google.com"
+console.log(user1.email)
+console.log(user2.email)
