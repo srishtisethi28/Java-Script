@@ -67,6 +67,7 @@ const users =[
 console.log(users[1].email);
 */
 
+/* Test Case 5
 const tinderUser ={} //non singleton object
 
 tinderUser.id="123abc"
@@ -77,6 +78,22 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+*/
+
+
+// ************Object ddestructure and json api intro**********************
+
+const course = {
+    courseName: "js",
+    price: "999",
+    courseInstructer : "Hitesh"
+}
+
+const {courseInstructer} =course
+console.log(courseInstructer);
+
+const {courseInstructer: Instructer} =course
+console.log(Instructer);
 
 
 
